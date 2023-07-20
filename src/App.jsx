@@ -10,14 +10,8 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
       <Header/>
       <Outlet/>
-=======
-
-      <h1>Nothing</h1>
-
->>>>>>> ef93d38aa75e44a5b8c480f72d3326330d6361f0
     </>
   )
 }
