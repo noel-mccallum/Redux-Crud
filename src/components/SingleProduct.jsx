@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SingleProduct({ imgURL, title, price }) {
   return (
@@ -6,9 +7,8 @@ export default function SingleProduct({ imgURL, title, price }) {
       <img style={{width: '250px', height: '250px'}} src={imgURL} alt="" />
       <div>
         <h4>{title}</h4>
-        <h2>{price}</h2>
+        <h2>${price}</h2>
       </div>
-
     </div>
   )
 }
