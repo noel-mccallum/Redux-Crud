@@ -16,7 +16,6 @@ export default function ProductList() {
         return res.json()
       })
       .then(data => {
-        console.log(data)
         dispatch(productActions.setProducts(data))
       })
       .catch(err => {

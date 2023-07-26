@@ -12,6 +12,8 @@ export const productReducer = (state = initState, { type, payload }) => {
         case actionTypes.PRODUCT_REQUEST:
             return {
                 ...state,
+                products: [],
+                singleProduct: {},
                 loading: true
             }
         case actionTypes.PRODUCT_ERROR:

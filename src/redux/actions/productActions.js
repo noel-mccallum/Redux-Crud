@@ -19,9 +19,9 @@ export const productFetchError = error => {
     }
 }
 
-export const selectProducts = product => {
+export const setSingleProduct = product => {
     return {
-        type: actionTypes.SELECTED_PRODUCT,
+        type: actionTypes.SET_SINGLE_PRODUCT,
         payload: product
     }
 }
