@@ -6,6 +6,18 @@ export const setProducts = products => {
         payload: products
     }
 }
+export const productFetchRequest = () => {
+    return {
+        type: actionTypes.PRODUCT_REQUEST
+    }
+}
+
+export const productFetchError = error => {
+    return {
+        type: actionTypes.PRODUCT_ERROR,
+        payload: error
+    }
+}
 
 export const selectProducts = product => {
     return {

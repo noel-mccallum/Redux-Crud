@@ -3,6 +3,7 @@ import {
     RouterProvider,
   } from "react-router-dom";
 import App from "../App";
+import ProductList from "../components/ProductList";
 
   
   const router = createBrowserRouter([
@@ -11,8 +12,8 @@ import App from "../App";
       element: <App/>,
       children: [
         {
-            path: 'sabbir',
-            element: <h2>sabbir</h2>
+            path: 'products',
+            element: <ProductList/>
         }
       ]
     },
